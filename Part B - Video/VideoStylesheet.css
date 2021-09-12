@@ -1,0 +1,20 @@
+body, h1, h2, nav, ul, header, footer { /*CSS Reset*/
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	background: #E6E3D4;
+}
+
+body {
+	font-family: "Century Gothic", Calibri, Helvetica;
+	line-height: 1.4;
+	margin: 0 auto;
+}
+
+h1, h2, h3 {
+  font-family: "Century Gothic", Calibri, Helvetica;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+  color: #575451;
+}

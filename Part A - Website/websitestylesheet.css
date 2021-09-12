@@ -1,0 +1,80 @@
+body, h1, h2, nav, ul, header, footer { /*CSS Reset*/
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	background: #E6E3D4;
+}
+
+body {
+	font-family: "Century Gothic", Calibri, Helvetica;
+	line-height: 1.4;
+	margin: 0 auto;
+}
+
+h1, h2, h3 {
+  font-family: "Century Gothic", Calibri, Helvetica;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+  color: #575451;
+}
+
+article {
+	width: auto; /*Responsive web design*/
+	padding: 10px;
+	border: 1px solid #575451;
+	background: #E6E3D4;
+	margin-left: 10px;
+}
+
+#content {
+	width: 50%;
+	padding: 10px;
+	border: 1px solid #575451;
+	background: #E6E3D4;
+	margin-left: 10px;
+}
+
+a:visited { /* Visited link */
+    color: green;
+}
+
+nav li:hover { /* Mouse over link */
+    color: red;
+	background-color:yellow;
+}
+
+a:active { /* Selected link */
+    color: yellow;
+}
+
+a:focus { /* Identifies active links when using tab */
+	border: 2px solid #fff;
+}
+
+hr { /*Horizontal footer line*/
+       display: block;
+       padding: 0;
+       height: 0;
+       width: 100%;
+       max-height: 0;
+       line-height: 0;
+       border-top: 1px solid #aaaaaa;
+       border-bottom: 1px solid #ffffff;
+}
+
+/*Horizontal nav bar*/
+ul, li { /*Removes styling*/
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+li { 
+	display: inline-block;
+}
+
+li a {
+	width: 50px;
+	height: 50px;
+}
